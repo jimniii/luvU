@@ -1,0 +1,77 @@
+<style>
+        *{
+            font-family: "맑은 고딕", Arial, Helvetica, sans-serif;   
+            line-height: 150%;
+        }
+        header h1{
+            display: inline;
+            font-size: 1.2em;
+        }
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        nav ul{
+            border-top: 2px solid #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px; 
+        }
+        nav ul li:hover{
+            background-color: #e3f2fd;
+        }
+        .photo >img {
+            padding-top: 50px;
+            margin: 0 auto;
+            display:block;
+            width: 40%;
+        }
+        table th{
+            background-color: #ffebee;
+            height: 30px;
+            weight: 30px;
+        }
+        table {
+            width: 90%;
+            margin: 0 auto;
+            font-size:1.2em;
+            color: black
+        }
+        .right{
+            margin-top: 30px;
+        }
+        body{
+            margin: 0 auto;
+            width: 80vw;
+            background-color: #ffebee;
+        }
+        header, footer{
+            height: 100px;
+            font-size: 1.4em;
+        }
+        nav {
+            height: 50px;
+        }
+        section {
+            display: flex;
+        }
+        .content{
+            flex : 4;
+        }
+        aside{
+            flex : 1;
+        }
+        footer{
+            background-color: #f5f5f5;
+            color: black;
+            text-align: center;
+            font-size:1em;
+        }
+    </style>
